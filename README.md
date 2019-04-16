@@ -1,6 +1,10 @@
 # **insomnia-plugin-authtoken**
 
-If you are sick of expired authentication tokens when runing multiple requests in insomnia then try to use this plugin.
+If you are sick of expired authentication tokens when running multiple requests in insomnia then try to use this plugin.
+
+_Another approach to solve this task is using [insomnia chaning requests](https://support.insomnia.rest/article/43-chaining-requests).
+However in that case you will need to configure tag with auth response data for every request you are running._ 
+
 Now, the parameters you are using to get _your_ application token might be different, 
 but you can implement it using this sample as an example.
 This plugin fetches auth token based on values configured in insomnia environment variables 
