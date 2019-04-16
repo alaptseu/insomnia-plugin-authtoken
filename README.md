@@ -1,6 +1,9 @@
 # **insomnia-plugin-authtoken**
 
-Fetches auth token based on parameters passed in environment variables 
+If you are sick of expired authentication tokens when runing multiple requests in insomnia then try to use this plugin.
+Now, the parameters you are using to get _your_ application token might be different, 
+but you can implement it using this sample as an example.
+This plugin fetches auth token based on values configured in insomnia environment variables 
 and adds it to the request header in the format of `Authorization: bearer <FETCHED AUTH TOKEN>`.
 Compulsory environment variables used by this insomnia plugin are:
 
