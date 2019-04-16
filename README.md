@@ -14,7 +14,7 @@ Compulsory environment variables used by this insomnia plugin are:
  }
  ```
  
- ###To install plugin manually
+ ### To install plugin manually
  1) Checkout this repository;
  2) Copy source code to insomnia plugins directory:
  
