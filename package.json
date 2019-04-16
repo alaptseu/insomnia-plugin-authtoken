@@ -1,0 +1,33 @@
+{
+  "name": "insomnia-plugin-authtoken",
+  "version": "1.0.0",
+  "description": "Fetches auth token based on parameters passed in environment variables",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Alex Laptseu",
+  "insomnia": {
+    "name": "authtoken",
+    "description": "Fetches auth token based on parameters passed in environment variables"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaptseu/insomnia-plugin-authtoken.git"
+  },
+  "dependencies": {
+    "fetch-min": "1.0.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "plugins",
+    "authtoken",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/alaptseu/insomnia-plugin-authtoken/issues"
+  },
+  "homepage": "https://github.com/alaptseu/insomnia-plugin-authtokend#readme"
+}
