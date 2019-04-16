@@ -19,7 +19,8 @@ Compulsory environment variables used by this insomnia plugin are:
  
  ### To install plugin manually
  1) Checkout this repository;
- 2) Copy source code to insomnia plugins directory:
+ 2) Copy source code to insomnia plugins directory(see paths below);
+ 3) Create environment variables(see structure above) with your values; 
  
  - ___MacOS_:__ ~/Library/Application\ Support/Insomnia/plugins/
  
